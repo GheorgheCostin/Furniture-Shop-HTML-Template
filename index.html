@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/slick-carousel/css/slick-theme.css">
+    <link rel="stylesheet" href="./vendor/slick-carousel/css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/regular.css">
+    <link rel="stylesheet" href="./fontawesome/css/solid.css">
+    <link rel="stylesheet" href="./fontawesome/css/brands.css">
+    <link rel="stylesheet" href="./fontawesome/css/light.css">
+
+    <title>Furniture Store</title>
+</head>
+<body>
+
+    <header>
+        <div id="first">
+            <div class="container">
+                <div class="d-flex py-2">
+                    <ul class="d-flex">
+                        <li><a href="#">furniture.store@gmail.com</a></li>
+                        <li><a href="#">012-345-6789</a></li>
+                    </ul>
+                    <ul class="d-flex">
+                        <li><a href="#">Wish list</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="second">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Furniture</a>
+    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenav" aria-controls="collapsenav" aria-expanded="false">
+                        <i class="fal fa-bars"></i>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="collapsenav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Disabled</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                        <div class="right">
+                            <a href="#" class="search">
+                                <i class="fal fa-search text-center"></i>
+                                <p>Search</p>
+                            </a>
+                            <a href="#" class="account">
+                                <i class="fal fa-user-alt text-center"></i>
+                                <p>Account</p>
+                            </a>
+                            <a href="#" class="cart">
+                                <i class="fal fa-shopping-cart text-center"></i>
+                                <p>Cart</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="carousel-container">
+        <div class="left-layer"></div>
+
+        <div class="container">
+
+
+            <!-- ARROWS -->
+            <div class="arrows">
+                <div class="arrow left__arrow">
+                    <i class="fal fa-chevron-left"></i>
+                </div>
+                <div class="arrow right__arrow">
+                    <i class="fal fa-chevron-right"></i>
+                </div>
+            </div>
+            <!-- ARROWS -->
+
+
+            <!-- SLICK CAROUSEL -->
+            <div class="carousel">
+
+                <!-- Slide -->
+                <div id="first__slide" class="container">
+                    
+                    <div class="row">
+                        <div class="col-md-5 center">
+                            <div class="text">
+                                <p>New Collection 2020</p>
+                                <h1>Chair with style</h1>
+                                <p class="price">From <span>$183.76</span></p>
+                                <a href="#" class="btn">
+                                    <div class="circle-left"></div>
+                                    <p>Shop Now</p>
+                                    <div class="circle-right"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="images">
+                                <img src="./images/chair-1-gray.jpg" class="img-fluid">
+                                <img src="./images/chair-1.jpg" class="img-fluid">
+                                <img src="./images/chair-1-orange.jpg" class="img-fluid">
+                                <img src="./images/chair-1-brown.jpg" class="img-fluid">
+                            </div>
+                            <div class="colors">
+                                <div class="color color__1 active" onclick="showColor(0)"></div>
+                                <div class="color color__2" onclick="showColor(1)"></div>
+                                <div class="color color__3" onclick="showColor(2)"></div>
+                                <div class="color color__4" onclick="showColor(3)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide -->
+
+
+                <!-- Slide -->
+                <div id="second__slide" class="container">
+                    <div class="row">
+                        <div class="col-md-5 center">
+                            <div class="text">
+                                <p>New Collection 2020</p>
+                                <h1>Chair with style</h1>
+                                <p class="price">From <span>$183.76</span></p>
+                                <a href="#" class="btn">
+                                    <div class="circle-left"></div>
+                                    <p>Shop Now</p>
+                                    <div class="circle-right"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="images">
+                                <img src="./images/chair-1-gray.jpg" class="img-fluid">
+                                <img src="./images/chair-1.jpg" class="img-fluid">
+                                <img src="./images/chair-1-orange.jpg" class="img-fluid">
+                                <img src="./images/chair-1-brown.jpg" class="img-fluid">
+                            </div>
+                            <div class="colors">
+                                <div class="color color__1 active" onclick="showColor(0)"></div>
+                                <div class="color color__2" onclick="showColor(1)"></div>
+                                <div class="color color__3" onclick="showColor(2)"></div>
+                                <div class="color color__4" onclick="showColor(3)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide -->
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="first-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="image">
+                        <img src="./images/coffe-table-1.jpg" class="img-fluid">
+                        <div class="text top-left">
+                            <p class="muted">Clearence</p>
+                            <h1>Coffe Table</h1>
+                            <p class="price">from <span>$23,99</span></p>
+                            <div class="button__container">
+                                <a href="#" class="btn">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="image">
+                        <img src="./images/chair-3.jpg" class="img-fluid">
+                        <div class="text bottom">
+                            <p class="muted">Clearence</p>
+                            <h1>Coffe Table</h1>
+                            <p class="price">from <span>$23,99</span></p>
+                            <div class="button__container">
+                                <a href="#" class="btn">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="column">
+                        <div class="row">
+                            <div class="image half" style="margin-bottom: 20px;">
+                                <img src="./images/sofa-1.jpg" class="img-fluid">
+                                <div class="text left">
+                                    <p class="muted">Clearence</p>
+                                    <h1>Coffe Table</h1>
+                                    <p class="price">from <span>$23,99</span></p>
+                                    <div class="button__container">
+                                        <a href="#" class="btn">Shop now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="image half">
+                                <img src="./images/sofa-1.jpg" class="img-fluid">
+                                <div class="text left">
+                                    <p class="muted">Clearence</p>
+                                    <h1>Coffe Table</h1>
+                                    <p class="price">from <span>$23,99</span></p>
+                                    <div class="button__container">
+                                        <a href="#" class="btn">Shop now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="gallery">
+        <div class="container">
+            <div class="row">        
+                <div class="d-flex">
+                    <div align="center" class="buttons">
+                        <button class="btn btn-default my-2 filter-button active-btn" data-filter="all">All Products</button>
+                        <button class="btn btn-default my-2 filter-button" data-filter="sofas">Sofas</button>
+                        <button class="btn btn-default my-2 filter-button" data-filter="chairs">Chairs</button>
+                        <button class="btn btn-default my-2 filter-button" data-filter="lightnings">Lightnings</button>
+                        <button class="btn btn-default my-2 filter-button" data-filter="furniture">Furniture</button>
+                    </div>   
+                    <div class=" d-none d-lg-block">
+                        <div class="navigation">
+                            <div class="prev">
+                                <i class="fal fa-arrow-to-left"></i>
+                                <p>Back</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="next">
+                                <p>Next</p>
+                                <i class="fal fa-arrow-to-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter chairs">
+                    <div class="card__top">
+                        <div class="product__offer offer__hot">HOT</div>
+                        <div class="top__image">
+                            <img src="./images/product-chair-1.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter sofas">
+                    <div class="card__top">
+                        <div class="product__offer offer__last">LAST</div>
+                        <div class="top__image">
+                            <img src="./images/product-sofa-1.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter chairs">
+                    <div class="card__top">
+                        <div class="top__image">
+                            <img src="./images/product-chair-2.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter furniture">
+                    <div class="card__top">
+                        <div class="top__image">
+                            <img src="./images/product-furniture-1.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter sofas">
+                    <div class="card__top">
+                        <div class="top__image">
+                            <img src="./images/product-sofa-2.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter lightnings">
+                    <div class="card__top">
+                        <div class="product__offer offer__new">NEW</div>
+                        <div class="top__image">
+                            <img src="./images/product-lightning-1.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter furniture">
+                    <div class="card__top">
+                        <div class="top__image">
+                            <img src="./images/product-furniture-2.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="gallery_product col-xl-3  col-lg-4 col-md-6 col-sm-6 col-xs-12 filter chairs">
+                    <div class="card__top">
+                        <div class="top__image">
+                            <img src="./images/product-chair-3.jpg" class="img-fluid">
+                        </div>
+                        <div class="top__icons">
+                            <div class="flex__left mx-auto my-2">
+                                <a href="#" class="link__btn">
+                                    <i class="fal fa-shopping-cart"></i>
+                                    Add to cart
+                                </a>
+                            </div>
+                            <div class="flex__right mx-auto my-2">
+                                <div class="btn">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-heart"></i>
+                                </a>
+                                <a href="#" class="btn">
+                                    <i class="fal fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__bottom">
+                        <div class="d-flex">
+                            <div class="product__name">Chair</div>
+                            <div class="product__discount">20%</div>
+                        </div>
+                        <div class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempore?
+                        </div>
+                        <div class="d-flex">
+                            <div class="product__price">$33.99</div>
+                            <div class="product__rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="form">
+        <div class="inner-content">
+            <h1>Subscribe Our Newsletter</h1>
+            <h3>Enter Your email adress to join our mailing list and receive newest offers</h3>
+            <form>
+                <input type="email" placeholder="example@gmail.com">
+                <input type="submit" value="Join now">
+            </form>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="icon"><i class="fal fa-truck"></i></div>
+                    <div class="text">
+                        <h1>Free Shipping Order</h1>
+                        <p>On orders over 50$</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="icon"><i class="fal fa-gift"></i></div>
+                    <div class="text">
+                        <h1>Free gift card</h1>
+                        <p>Special offer</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="icon"><i class="fal fa-undo-alt"></i></div>
+                    <div class="text">
+                        <h1>Return & Refound</h1>
+                        <p>Free in the first 30 days</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="icon"><i class="fal fa-user-headset"></i></div>
+                    <div class="text">
+                        <h1>Professional Support</h1>
+                        <p>24/7 support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                   <h1>Furniture Market</h1>
+                   <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, nihil? Nam quisquam et impedit suscipit iusto ratione cupiditate error molestiae laboriosam nisi provident, eveniet enim dolore optio ea, facilis veniam itaque dolores assumenda! Excepturi quae quos, non necessitatibus nobis.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                    <h1 class="heading">Company</h1>
+                    <a href="#">What we do</a>
+                    <a href="#">Available services</a>
+                    <a href="#">History</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                    <h1 class="heading">Profile</h1>
+                    <a href="#">My Account</a>
+                    <a href="#">Checkout</a>
+                    <a href="#">Order Tracking</a>
+                    <a href="#">Help & Support</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                    <h1 class="heading">Social Media</h1>
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Linkedin</a>
+                    <a href="#">Pinterest</a>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                    <h1 class="heading">Customer Service</h1>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Refound & return policy</a>
+                    <a href="#">Online Stores</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bottom">
+                    <p>Copyright&copy;CostinGheorghe</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./vendor/jquery/jquery-v.3.5.1.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/slick-carousel/scripts/slick.min.js"></script>
+    <script src="./vendor/smooth-scrollbar/smooth-scrollbar.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
